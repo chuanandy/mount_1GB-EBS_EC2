@@ -15,7 +15,7 @@ resource "aws_instance" "example" {
   subnet_id     = aws_subnet.main.id
 
   tags = {
-    Name = "EC2_Instance"
+    Name = "Andyhon_EC2_Instance"
   }
 }
 
@@ -25,7 +25,7 @@ resource "aws_ebs_volume" "extra" {
   size              = 1 # size in GB
 
   tags = {
-    Name = "Mounted_Volume"
+    Name = "Andyhon_Mounted_Volume"
   }
 }
 
